@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    display: inline-block;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body{
+    font-family: 'PT Sans';
+    font-weight: 400;
+    background: #000;
+    color: #fff;
+}
+
+.site-title{
+    width: 100%;
+    text-align: center;
+}
+
+.site-title .title{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+}
+
+.site-title .line{
+    width: 120px;
+    height: 1px;
+    background: #fff;
+    margin: 40px auto;
+}
+
+.site-title .btn{
+    font-size: 18px;
+    padding: 12px 28px;
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.site-title .text{
+    font-size: 14px;
+    line-height: 21px;
+    width: 471px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+/* CARD */
+.card{
+    width: 260px;
+}
+
+.card .image-block{
+    width: 100%;
+    height: 325px;
+    background: #191b1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .name{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display', sans-serif;
+    margin: 25px 0 10px;
+}
+
+.card .price{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/* HEADER */
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top .top-info{
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 12px;
+    color: #969696;
+}
+
+.header-top .login{
+    display: flex;
+    align-items: center;
+    color: #969696;
+    font-size: 12px;
+    gap: 12px;
+}
+
+.header-nav{
+    background: #0f0f0f;
+}
+
+.header-nav .logo img{
+    width: 104px;
+}
+
+.header-nav .menu{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav .menu .link{
+    font-size: 14px;
+    color: #969696;
+    padding: 31px 20px;
+    text-transform: uppercase;
+}
+
+.header-nav .menu .link:hover{
+    background: #1f1f1f;
+    color: #fff;
+}
+
+.header-nav .menu .link i{
+    color: #fff;
+}
+
+/* MAIN */
+.main{
+    padding: 160px 0;
+    background: url(images/header-bg.jpg) no-repeat center / cover;
+}
+
+.main .content{
+    width: 730px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main .main-logo{
+    width: 320px;
+    height: 320px;
+    border: 4px solid #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .text{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+/* SEASON */
+.season{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.season-prod{
+    width: 60%;
+    padding: 93px 0;
+}
+
+.season-prod .wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.season .banner{
+    width: 40%;
+    background: url(images/image-1.jpg) no-repeat center / cover;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 100px;
+}
+
+.collect{
+    display: flex;
+}
+
+.collect .content{
+    width: 60%;
+    padding: 100px 0;
+}
+
+.collect .banner{
+    width: 40%;
+    background: url(images/image-1.jpg) no-repeat center / cover;
+}
+
+/* PRODUCTS */
+.products{
+    padding: 120px 0 150px;
+}
+
+.products .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 23px;
+}
+
+/* BRAND */
+.brand{
+    padding: 60px 0 80px;
+    background: #0f0f0f;
+}
+
+.brand .images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* FOOTER */
+.footer{
+    padding: 80px 0 100px;
+    background: url(images/footer-bg.jpg) no-repeat center / cover;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .item{
+    width: 350px;
+}
+
+.footer .item .title{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 40px;
+}
+
+.footer .item .text{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer .item .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer .item .link{
+    font-size: 14px;
+    padding: 10px 20px;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+.footer .item form{
+    display: flex;
+    margin-top: 37px;
+    width: 100%;
+}
+
+.footer .item form input{
+    width: 100%;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    outline: none;
+    padding-left: 16px;
+    color: #fff;
+}
+
+.footer .item form input::placeholder{
+    color: #fff;
+}
+
+.footer .item form button{
+    color: #fff;
+    background: #0f0f0f;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.cop{
+    background: #0f0f0f;
+}
+
+.cop .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.cop .text{
+    font-size: 12px;
+    color: #ddd;
+}
+
+.cop .link{
+    font-size: 12px;
+    color: #ddd;
+    text-decoration: underline;
+}
+
+.map{
+    width: 100%;
+    height: 450px;
+}
+
+.map iframe{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.burger{
+    width: 30px;
+    height: 30px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.header-nav.active .burger .fa-bars{
+    display: none;
+}
+
+.header-nav.active .burger .fa-times{
+    display: block;
+}
+
+.header-nav .burger .fa-bars{
+    display: block;
+}
+
+.header-nav .burger .fa-times{
+    display: none;
+}
